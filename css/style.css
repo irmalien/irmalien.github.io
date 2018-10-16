@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  background-color: 333333;
+}
+
+ul {
+  color: #adadad;
+  margin-top: 15px;
+  margin-left: 30px;
+  line-height: 2em;
+}
+
+#nav-contacts{
+  margin-top: 45px;
+}
+
+ul .list-link:hover{
+  list-style-type:disc;
+  cursor:pointer;
+}
+
+ul .list-title{
+  color: white; 
+}
+
+ul .list-socials{
+  line-height: 4em;
+}
+
+
+ul i{
+  font-style: normal;
+  display: inline-block;
+  margin-right: 0.75em;
+}
+
+ul .java {
+  color: #8cbbc2;
+}
+
+ul .csharp {
+  color: #c285c0;
+}
+
+ul .css {
+  color: #3985cf;
+}
+
+ul .html {
+  color: #df8559;
+}
+
+ul .nodejs {
+  color: #47cbae;
+}
+
+ul span {
+  color: #3f3f3f;
+  margin-right: 0.75em;
+}
+
+/*638c43 47cbae*/
+
+.bg-black{
+  background-color: #1e1e1e;
+}
+
+.fullscreen{
+  height: 100%;
+}
+
+.outline{
+  outline-width: 2px;
+  outline-color: black;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+#slide{
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+#nav{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+disp-in

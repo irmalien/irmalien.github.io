@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Norrlands Roof Masters AB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/modal-gallery.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat" rel="stylesheet">
+</head>
+<body>
+    <div style="z-index: 1">
+        <div class="header-container logo">
+            <img class="logo-image" src="images/logo.jpg">
+        </div>
+        <div class="header-container">
+            <ul>
+                <li><a href="#home" class="selected">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--JS Slideshow-->
+        <div class="slideshow-container">
+            <div class="myslides">
+                    <div class="numbertext"></div>
+                    <img class="slideshow-images" src="images/breno-assis-517356-unsplash.jpg">
+                    <div class="text"></div>
+            </div>
+            <div class="myslides">
+                        <div class="numbertext"></div>
+                        <img class="slideshow-images" src="images/seth-kane-358521-unsplash.jpg">
+                        <div class="text"></div>
+            </div>
+            <div class="myslides">
+                        <div class="numbertext"></div>
+                        <img class="slideshow-images" src="images/vidar-nordli-mathisen-569768-unsplash.jpg">
+                        <div class="text"></div>
+            </div>
+            <a class="prev" onclick="plusSlidesSlideshow(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesSlideshow(1)">&#10095;</a>
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <!--JS Slideshow end-->
+    </div>
+
+    <div class="container container-red">
+        <div style="text-align: center">
+        <h1>
+            <a href="#about">Our goal is satisfied customer</a>
+        </h1>
+        <div class="container-collumns">
+                <h3 class="text-color1-3">
+                    <a href="#about">
+                    Norrlands Roof Masters have one main goal - 100% satisfied customers - through well done work at a great price. We carry out all roofing work, such as racking, roofing, tiling of tile roofs, concrete roofs and roof tiles. Our field of work extends across the entire Middle and Northern Sweden and we are happy to visit the customer to offer a free quote!
+                    </a>
+                </h3>
+        </div>
+        </div>
+    </div>
+    <div class="container" id="gallery">
+        <div class="item">
+            <img onclick="openModal();currentSlideGallery(1)" class="gallery-image" src="images/construction1.jpg" alt="" />
+        </div>
+        <div class="item">
+            <img onclick="openModal();currentSlideGallery(2)" class="gallery-image"  src="images/worker.jpg" alt="" />
+        </div>
+        <div class="item">
+            <img onclick="openModal();currentSlideGallery(3)" class="gallery-image" src="images/construction2.jpg" alt="" />
+        </div>
+            
+    </div>
+    <!--Modal gallery-->
+    <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-container">
+            <div class="modal-content">
+                    <div class="mySlides">
+                        <img class="modal-gallery-image" src="images/construction1.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img class="modal-gallery-image" src="images/worker.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img class="modal-gallery-image" src="images/construction2.jpg" style="width:100%">
+                    </div>
+            
+                <a class="prev" onclick="plusSlidesGallery(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlidesGallery(1)">&#10095;</a>
+            </div>
+        </div>
+    </div>
+    <!--Modal gallery end-->
+
+    <div class="container container-grey background-image" style="background-image: url(images/julian-gentilezza-351164-unsplash.jpg);">
+        <div style="text-align: center">
+            <h1 class="text-color2-2">
+                What we can to for you
+            </h1>
+            <div class="container-collumns">
+                <div style="margin-left:20px; margin-right:20px">
+                    <h3 class="text-color3 smalltitle">
+                    <a href="#services#construction">Construction</a>
+                    </h3>
+                    <p class="text-color2-2">Domestic roof construction with the timber framing and roof covering with a variety of materials.</p>
+                </div>
+                <div class="text-color2-2"  style="margin-left:20px; margin-right:20px">
+                    <h3 class="text-color3 smalltitle">
+                    <a href="#services#renovation">Renovation</a>
+                    </h3>
+                    <p class="text-color2-2">If you uncover signs of water damage and other visible problems, you will need to do some repairs, or possibly replace the old roof for a new one.</p>
+                </div>
+                <div class="text-color2-2" style="margin-left:20px; margin-right:20px">
+                    <h3 class="text-color3 smalltitle">
+                    <a href="#services#drainage">Drainage</a>
+                    </h3>
+                    <p class="text-color2-2">Good roof drainage system considers a range of factors such as
+                            rainfall intensity, roof catchment area, downpipes, material, jointing, etc. to guarantee longevity of your building. </p>
+                </div>
+                <div class="text-color2-2"  style="margin-left:20px; margin-right:20px">
+                    <h3 class="text-color3 smalltitle">
+                    <a href="#services#insulation">Insulation</a>
+                    </h3>
+                    <p class="text-color2-2">Insulating your loft, attic or flat roof is a simple and effective way to reduce heat loss and reduce your heating bills and can last at least 40 years. </p>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <div class="container container-white">
+            <div style="text-align: center">
+                    <h1 class="text-color1">
+                        Couple words from our clients
+                    </h1>
+                    <div class="container-collumns">
+                        <h3 class="text-color2">
+                        They thoroughly inspected the roof and made a recommendation to correct the faulty design of where water run off drains to and made the repairs the same day.  I tried to pay for  service but worker insists that he wants to monitor it when it rains, make sure the problem is corrected and once we are sure, we can take care of the payment. Companies are so quick to get paid, and a lot of times they get paid for a service that wasn't done right. Thank you Tom for showing your customers that you really do stand behind your work!
+                        </h3>
+                    </div>
+            </div>
+    </div>
+    <div class="container container-red background-image" style="background-image: url(images/rsz_tom-skarbek-wazynski-110162-unsplash-small.jpg);">
+        <div style="text-align: center">
+            <h3 class="text-color3"><a href="#contacts">Lets work together!</a></h3>
+            <h1 class="text-color3" id="phone">(+46)721-874-515</h1>
+            <p class="text-color2-2"><a href="mailto:contacts@norrlandstakmaster.se">contacts@norrlandstakmaster.se</a></p> 
+        </div>
+    </div>
+    <div class="container container-footer">
+            <div class="header-container">
+                <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <p>Copyright © 2008 Nordic Roof Masters AB.<br />All rights reserved</p>
+        </div>
+</body>
+<script src="scripts/script.js"></script>
+<script src="scripts/modal-gallery.js"></script>
+</html>
