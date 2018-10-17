@@ -1,3 +1,10 @@
+/*
+Extra colours
+#e4d542 (lemon yellow)
+#57823e (dark green)
+
+*/
+
 html, body {
   height: 100%;
   margin: 0;
@@ -105,4 +112,8 @@ ul span {
 #nav{
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+.img-link{
+  cursor:pointer;
 }
