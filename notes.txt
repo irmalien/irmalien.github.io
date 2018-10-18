@@ -1,11 +1,21 @@
 
 
 GIT bash - Powershell console alternative
-
 Emmet - VS shortcuts system
 
 shortcuts
 ctrl  + ~ toggle terminal
 h1#id + tab heading with id
-
 .something + tab - div with classv
+
+GIT
+git init
+git add .
+git commit -m "First commit"
+
+HEROKU
+heroku login
+mikus.vanags@gmail.com m23!
+
+https://nameless-oasis-22469.herokuapp.com/
+git push heroku master

@@ -14,14 +14,22 @@ var images = [
 ]
 
 var step = 0;
-changeImage(); // set first image src after page loads
+var img=new Image();
+
+
 
 function changeImage() {
   // exit if no images, or step = number of items in array (4)
   if (typeof images == "undefined") 
     return;     
   document.getElementById('imgClickAndChange').src = images[step];
-  step++;
-  if (step == images.length)
-  {step = 0;}
+  console.log(step)
+    step++;
+  //preload image
+  if (step < images.length){
+    img.src=images[step];
+  }
+  //if last image, reset count to 0 
+  if (step == images.length){step = 0;}
+
 }

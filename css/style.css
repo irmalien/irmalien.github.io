@@ -17,6 +17,7 @@ ul {
   color: #adadad;
   margin-top: 15px;
   margin-left: 30px;
+  font-size: 1em;
   line-height: 2em;
 }
 
@@ -47,6 +48,7 @@ ul i{
   font-style: normal;
   display: inline-block;
   margin-right: 0.75em;
+  font-size: 0.8em;
 }
 
 ul .java {
