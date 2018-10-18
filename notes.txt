@@ -1,0 +1,11 @@
+
+
+GIT bash - Powershell console alternative
+
+Emmet - VS shortcuts system
+
+shortcuts
+ctrl  + ~ toggle terminal
+h1#id + tab heading with id
+
+.something + tab - div with classv
