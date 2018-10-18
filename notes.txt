@@ -16,6 +16,11 @@ git commit -m "First commit"
 HEROKU
 heroku login
 mikus.vanags@gmail.com m23!
+heroku git:remote -a irmalien
+git push heroku master
+
+
+https://irmalien.herokuapp.com/
 
 https://nameless-oasis-22469.herokuapp.com/
 git push heroku master
